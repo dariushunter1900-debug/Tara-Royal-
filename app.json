@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Tara Royal",
+    "slug": "tara-royal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tararoyal",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tararoyal.app"
+    },
+    "android": {
+      "package": "com.tararoyal.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#090A10"
+      }
+    },
+    "plugins": [
+      "expo-haptics"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    }
+  }
+}
